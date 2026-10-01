@@ -6,13 +6,6 @@
 A productivity to-do app, deployed on Streamlit Community Cloud so every
 learner can try it from a browser link — no install, nothing to set up.
 
-## What it uses from Python Fundamental Sessions
-- **Dictionaries** — one task = one dictionary (`title`, `owner`, `deadline`, `priority`, `status`, `notes`)
-- **List of dictionaries** — every task lives in one list: `st.session_state.tasks`
-- **f-strings** — used throughout for labels and dates
-- **`del`** — deleting a task removes it from the list by position
-- **`import random`** — the "Pick a random task" button uses `random.choice()`
-
 ## Learners have to build their own versions
 
 
