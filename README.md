@@ -31,7 +31,7 @@ This app stores tasks in **`st.session_state`**, which Streamlit keeps
   the app going idle and restarting (Community Cloud sleeps unused apps)
   wipes that tab's tasks.**
 
-This is correct and expected for a classroom demo of dictionaries + lists —
+This is correct and expected for a classroom demo —
 it is **not** a bug. If a future session wants tasks to survive a refresh
 or be shared across devices, that needs a real database and probably
 login, which is a good "what's the next problem?" hook for a later module,
